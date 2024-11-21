@@ -5,6 +5,4 @@ class MortgageCalculator:
         self.months = years * 12
 
     def monthly_payment(self):
-        if self.monthly_rate == 0:
-            return self.principal / self.months
         return (self.principal * self.monthly_rate) / (1 - (1 + self.monthly_rate) ** -self.months)
