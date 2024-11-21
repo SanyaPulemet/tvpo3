@@ -30,6 +30,4 @@ jobs:
             sudo mkdir -p /var/www/project
             cd /var/www/project
             sudo git clone https://github.com/SanyaPulemet/tvpo3.git
-            cd /tvpo3
-            ls -ls
             echo "Successfully deployed"
